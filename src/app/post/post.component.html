@@ -1,0 +1,9 @@
+<h2>All Posts</h2>
+
+<div *ngFor="let post of posts" (click)="goToDetailPage(post)">
+  <h3><em>{{post.title}}</em> by {{post.author}}</h3>
+</div>
+
+<p>
+  <a routerLink="">Home</a>
+</p>
